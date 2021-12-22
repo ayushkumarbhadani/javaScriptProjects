@@ -23,7 +23,7 @@ const data = [
     {
         id: 4,
         img: "pani_puri.jpeg",
-        title: "Pani Puri",
+        title: "Pani Puri Shots",
         price: 40,
         desc: " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque, ratione."
     },
