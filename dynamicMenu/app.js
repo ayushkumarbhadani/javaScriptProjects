@@ -121,7 +121,6 @@ window.addEventListener("DOMContentLoaded", () => {
                     temp.push(e);
                 }
             });
-            console.log(temp);
             card = menu(temp);
             card=card.join("");
             document.querySelector("#container").innerHTML = card;
