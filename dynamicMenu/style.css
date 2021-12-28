@@ -8,11 +8,33 @@ body{
     background-color: #fac473;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.card-container{
+.filter{
     display: flex;
     align-items: center;
     justify-content: center;
     gap:5px;
+    padding-top: 25px;
+}
+.filter-btn{
+    padding: 5px;
+    text-transform: capitalize;
+    background-color: #fac473;
+    border:2px solid #eeae4e;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.filter-btn:hover{
+    background-color: #eeae4e;
+    border-color: #555;
+}
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+    column-gap: 15px;
     flex-wrap: wrap;
     box-sizing: border-box;
     padding: 25px;
@@ -32,7 +54,7 @@ body{
     border-radius: 10px 10px 0px 0px;
 }
 .card{
-    height: auto;
+    height: 400px;
     width: 200px;
     border-radius: 5px;
     box-shadow: 0px 5px 5px #eeae4e;
@@ -41,7 +63,7 @@ body{
 }
 .card:hover{
     box-shadow: 0px 8px 5px #cc8c2c,0px 0px 10px #cc8c2c;
-
+    transform: translateY(-10px);
 }
 .card>.desc{
     padding:0 10px 10px;
