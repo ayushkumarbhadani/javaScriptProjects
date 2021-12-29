@@ -7,7 +7,6 @@ form.addEventListener("submit",(e)=>{
     
     if(!todoList.includes(input.value)){
         if(input.value!==""){
-            console.log(`indexinside:${index}`);
             if(index==-1){
                 todoList.push(input.value);
             }
@@ -17,7 +16,7 @@ form.addEventListener("submit",(e)=>{
                 document.querySelector(".btn").textContent="Add Item";
             }
             input.value="";
-            document.querySelector(".good").innerHTML="Task added Successfully";
+            document.querySelector(".good").innerHTML="Task Added Successfully";
             displayNoneToggle(".good");
             renderTodo();
             addEvent();
@@ -28,11 +27,9 @@ form.addEventListener("submit",(e)=>{
         }  
     }
     else{
-        console.log("Already Added");
         document.querySelector(".warning").innerHTML="Already added to the list";
         displayNoneToggle(".warnings");
     }
-    console.log(todoList);
 });
 function displayNoneToggle(item){
     document.querySelector(item).classList.remove("displayNone");
@@ -69,8 +66,8 @@ function addEvent(){
             var deleteIndex=todoList.indexOf(tempvar);
             if(deleteIndex!==-1){
                 todoList.splice(deleteIndex,1);
+                displayNoneToggle(".danger");
             }
-            console.log(`After del: ${todoList}`);
             renderTodo();
         });
     });
