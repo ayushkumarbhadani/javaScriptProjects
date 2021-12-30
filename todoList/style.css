@@ -29,6 +29,7 @@ main{
     font-size: 16px;
     font-weight: bold;
     outline: none;
+    cursor: pointer;
     transition: .3s ease-in-out;
 }
 .btn:hover,.btn:focus{
@@ -46,7 +47,7 @@ input:focus{
     border-bottom: 1px solid #333;
 }
 article{
-    margin-top: 25px;
+    margin: 5px 0;
 }
 
 .todo-list-container{
@@ -68,6 +69,7 @@ article{
     display: block;
     padding: 5px;
     text-align: center;
+    
 }
 .warnings{
     background-color: #ffea71;
@@ -84,7 +86,8 @@ article{
     color:#000000c4;
 }
 .displayNone{
-    display:none;
+    /* visibility:hidden; */
+    display: none;
 }
 .modify-todo{
     background-color: #ffffff00;
