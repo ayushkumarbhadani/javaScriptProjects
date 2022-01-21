@@ -10,3 +10,5 @@ Here are some of my JavaScript Projects that i have created during learning it.
 <a href="./counter">Counter</a>
 <br>
 <a href="./studentData">Student Data List from XHR Call</a>
+<br>
+<a href="./randomProgrammingQuotes">Random Programming Quotes using API Call</a>
