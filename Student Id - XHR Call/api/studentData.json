@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "name":"Ayush Kumar Bhadani",
+        "regNo":19105124031,
+        "branch":"Computer Science Engineering",
+        "course":"Undergraduate" 
+    },
+    {
+        "id":2,
+        "name":"Ranveer Kumar Singh",
+        "regNo":19105124028,
+        "branch":"Computer Science Engineering",
+        "course":"Undergraduate" 
+    },
+    {
+        "id":3,
+        "name":"Brajesh Mishra",
+        "regNo":19105124021,
+        "branch":"Computer Science Engineering",
+        "course":"Undergraduate" 
+    },
+    {
+        "id":4,
+        "name":"Pratham Raj",
+        "regNo":19105124049,
+        "branch":"Computer Science Engineering",
+        "course":"Undergraduate" 
+    }
+]
