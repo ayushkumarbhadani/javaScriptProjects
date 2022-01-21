@@ -8,3 +8,5 @@ Here are some of my JavaScript Projects that i have created during learning it.
 <a href="./todoList">Todo List</a>
 <br>
 <a href="./counter">Counter</a>
+<br>
+<a href="./studentData"></a>
